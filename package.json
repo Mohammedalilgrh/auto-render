@@ -27,12 +27,9 @@
     "tsx": "4.19.3",
     "typescript": "5.9.3"
   },
-  "scripts": {
-    "build": "remotion bundle",
-    "dev": "tsx watch server",
-    "start": "tsx server",
-    "lint": "eslint . && tsc",
-    "remotion:upgrade": "remotion upgrade",
-    "remotion:studio": "remotion studio"
-  }
-}
+ "scripts": {
+  "dev": "node server.js",
+  "start": "node server.js",
+  "build": "remotion bundle"
+ }
+} 
